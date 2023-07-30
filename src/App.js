@@ -3,7 +3,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Hola from './components/Hola';
 import Footer from './components/Footer';
-
+import Projects from './components/Projects';
 
 function App() {
   return (
@@ -11,6 +11,8 @@ function App() {
     <Navbar/>
   
     <Hola/>
+
+    <Projects/>
 
     <Footer/>
 

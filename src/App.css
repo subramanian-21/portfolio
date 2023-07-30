@@ -16,6 +16,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1;
   
 }
 .btns{
@@ -32,12 +35,18 @@
   color: black;
   margin-left: 10%;
   display: flex;
-  justify-content: center;
+  justify-content:space-between;
   flex-direction: column;
   background-color: antiquewhite;
   height: 600px;
 
 
+}
+.minnerbody{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 400px;
 }
 .myname{
   
@@ -95,11 +104,14 @@ img{
 }
 h1{
   font-size: 40px;
+  color: #282c34;
 }
 .body{
   display: flex;
   flex-direction: column;
-  height: 600px;
+  height: 645px;
+  background-color: aqua;
+  border-bottom: 1px solid black;
 
 }
 .footer{
@@ -131,7 +143,26 @@ svg:hover{
   
 
 }
-
+.project-page{
+  width: 90%;
+background-color: rgba(0, 0, 255, 0);
+height: 100%;
+display: flex;
+flex-direction: column;
+}
+.p-body{
+  height: 1500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pro{
+  border: 1px solid #282c34;
+  margin: 5px;
+  flex: 1;
+  
+}
 @keyframes downdown {
   0%{
     
