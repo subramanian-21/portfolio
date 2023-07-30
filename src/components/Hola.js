@@ -1,7 +1,12 @@
-/* eslint-disable react/jsx-no-comment-textnodes */
+import {useState} from "react"
 
 import scroll from '../images/1921075-200.png'
 function Hola() {
+    const [hover,setHover] = useState(false)
+    const toggleHover =()=>{
+        setHover(!hover)
+    }
+    console.log(hover);
     return( <div className='body'>
     <div className='innerbody'>
         <div className='myname'>Subramanian M</div>
@@ -11,8 +16,9 @@ function Hola() {
         <div id="contact-me">Contact Me</div>
 
      
-        <div className='scroll'>
-       <img src={scroll} alt="none"/>
+        <div onMouseEnter={toggleHover} onMouseLeave={toggleHover} className='scroll' >
+       <img id='scroll' className={hover ? 'downdown':''}  src={scroll} alt="none"/>
+     <div className='projects'>Projects</div>
     </div>
     </div>
  

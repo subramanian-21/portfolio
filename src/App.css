@@ -9,7 +9,7 @@
 
 
 .header{
-  height: 13vh;
+  height: 100px;
   background-color:#282c34 ;
   color: white;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -28,12 +28,14 @@
 .innerbody{
  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
-  height: 80vh;
+ 
   color: black;
   margin-left: 10%;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  background-color: antiquewhite;
+  height: 600px;
 
 
 }
@@ -62,13 +64,31 @@
 
 }
 .scroll{
-  width: 80px;
-  height: 80px;
-  margin-top: 30px;
+  width: 160px;
+  height: 100px;
+ margin-top: 50px;
+  background-color: #282c3400;
+  position: relative;
+  display: flex;
+  
+  
 
 
 
- 
+}
+.downdown{
+  animation: downdown 1s steps(7)
+}
+
+.projects{
+  height: 100px;
+  display: flex;
+  justify-content: center;
+position: relative;
+top: 20px;
+  font-size: 20px;
+  font-weight: 1000;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 img{
   width: 100%;
@@ -79,15 +99,13 @@ h1{
 .body{
   display: flex;
   flex-direction: column;
-
-  
- 
+  height: 600px;
 
 }
 .footer{
   background-color: #282c34;
   width: 100%;
- height: 7vh;
+ height: 60px;
  display: flex;
  align-items: center;
  justify-content: center;
@@ -105,6 +123,32 @@ svg{
 svg:hover{
   color: gray;
 
+}
+#scroll{
+  width: 70px;
+  height: 70px;
+  position: relative;
+  
+
+}
+
+@keyframes downdown {
+  0%{
+    
+    top:0px;
+
+  }
+  25%{
+    top: 30px;
+    }50%{
+      top:0px;
+    }
+    75%{
+      top: 30px;
+    }
+  100%{
+    top:0px;
+  }
 }
 @media(max-width:600px){
   .innerbody{
