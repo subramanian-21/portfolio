@@ -16,7 +16,7 @@ setHover(!hover)
         <h3 className='edu'>Final Year Computer Science Engineering</h3>
         <h4 className='objective'>A Highly motivated and fully oriented Full-Stack Developer</h4>
 
-        <div id="contact-me">Collaborate</div>
+        <a href="mailto: meenamani9444@gmail.com" id="contact-me">Collaborate</a>
         </div>
        
 

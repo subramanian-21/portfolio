@@ -10,7 +10,7 @@ function About() {
             Iam a MERN stack developer . I am interested in Full Stack positions, here you can see some of my projects, if you like what you see do not hesitate to contact me.
 
         </div>
-        <div id="contact-me">Collaborate</div>
+        <a href='mailto: meenamani9444@gmail.com' id="contact-me">Collaborate</a>
         </div>
        
         <div className="tech-stack">
