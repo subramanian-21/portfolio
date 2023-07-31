@@ -1,24 +1,48 @@
 import logo from './logo.svg';
 import './App.css';
-import Navbar from './components/Navbar';
+
 import Hola from './components/Hola';
 import Footer from './components/Footer';
 import Projects from './components/Projects';
 import About from './components/About';
-
+import { useRef } from 'react';
 
 function App() {
+  const hello = useRef(null)
+  const project = useRef(null)
+  const about = useRef(null)
+  const footer = useRef(null)
+
+  const handleHelloClick = () => {
+    hello.current?.scrollIntoView({ behavior: 'smooth' });
+  };
+  const handleProjectClick = () => {
+    project.current?.scrollIntoView({ behavior: 'smooth' });
+  };
+  const handleAboutClick = () => {
+    about.current?.scrollIntoView({ behavior: 'smooth' });
+  };
+  const handleFooterClick = () => {
+    footer.current?.scrollIntoView({ behavior: 'smooth' });
+  };
   return (
     <div className="App">
-    <Navbar/>
+   <div className="header">
+
+<div onClick={handleHelloClick} className='btns'>Hola</div>
+<div onClick={handleProjectClick} className='btns'>Projects</div>
+<div onClick={handleAboutClick} className='btns'>About</div>
+
+<div onClick={handleFooterClick} className="btns">Contact</div>
+</div>
   
-    <Hola/>
+    <Hola ref={hello}/>
 
-    <Projects/>
-    
-    <About/>
+    <Projects ref={project}/>
 
-    <Footer/>
+    <About ref={about}/>
+
+    <Footer ref={footer}/>
 
 
     </div>
