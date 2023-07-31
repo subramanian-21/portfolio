@@ -32,7 +32,7 @@ function App() {
     <div className="App">
    <div className="header">
 
-<div onClick={handleHelloClick} className='btns'>Hola</div>
+<div onClick={handleHelloClick} className='btns'>Me</div>
 <div onClick={handleProjectClick} className='btns'>Projects</div>
 <div onClick={handleAboutClick} className='btns'>About</div>
 
