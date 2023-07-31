@@ -4,7 +4,8 @@ import scroll from '../images/1921075-200.png'
 function Hola() {
     const [hover,setHover] = useState(false)
     const toggleHover =()=>{
-        setHover(!hover)
+setHover(!hover)
+        
     }
     console.log(hover);
     return( <div className='body'>
