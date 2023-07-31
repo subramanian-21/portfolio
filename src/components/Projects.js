@@ -10,7 +10,10 @@ import imagetoolkitport from '../images/imagetoolkitportrait.png'
 import mathmagician from '../images/mathmagician.png'
 import mathmagicianport from '../images/mathmagicianportrait.png'
 
+
 function Projects(params) {
+  
+
     return(
         <div className="p-body">
           <h1>PROJECTS</h1>
@@ -20,29 +23,29 @@ function Projects(params) {
                     <div className="p1">
                         <div className="q1">
                             <div className="o1">
-                                <div className="n1"> <img className='img' src={hangman} alt=""/>
-                                <div className='hov'></div>
+                                <div className="n1"  > <img className='img' src={hangman} alt=""/>
+                                <div className="hangman"></div>
                                 </div>
                                 <div className="n2"><img className='img' src={handcricket} alt=""/>
                                 
-                                <div className='hov'></div></div>
+                                <div className='handcricket'></div></div>
                             </div>
                             <div className="o2"><img className='img' src={imagefetch} alt=""/>
                             
-                            <div className='hov'></div></div>
+                            <div className='imagefetch'></div></div>
                         </div>
                         <div className="q2"><img className='img' src={imagetoolkitport} alt=""/>
                         
-                        <div className='hov'></div></div>
+                        <div className='imagetoolkit'></div></div>
                     </div>
                     <div className="p2">
                         <img className='img' src={chatthru} alt=""/>
-                        <div className='hov'></div>
+                        <div className='chatthru'></div>
                     </div>
                 </div>
                 <div className="m2">
                     <img className="img" src={mathmagicianport} alt="none"/>
-                    <div className='hov'></div>
+                    <div className='mathmagician'></div>
                 </div>
                 </div>
                 </div>
