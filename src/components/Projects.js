@@ -17,7 +17,7 @@ function Projects(params) {
 
     return(
         <div className="p-body">
-          <h1>PROJECTS</h1>
+          <h1 className='main-headings'>PROJECTS</h1>
             <div className="projects-body">
                 <div className="m3">
                 <div className="m1">

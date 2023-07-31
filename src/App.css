@@ -282,6 +282,56 @@ width: 90%;
   width: 90%;
 }
 
+/* about */
+.abody{
+  height: 700px;
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+
+}
+.main-headings{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.sabout{
+  color:black;
+  width: 80%;
+}
+.mabout{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mabout #contact-me{
+  margin-top: 20px;
+}
+.tech-stack{
+  flex: 1;
+}
+.all-tech-stack{
+  outline: 1px solid black;
+  width: 400px;
+  height:400px;
+  display: flex;
+  flex-direction: column;
+}
+.top-stack,.bottom-stack{
+  outline: 1px solid black;
+  flex: 1;
+  display: flex;
+}
+
+.top-left,.top-right,.bottom-left,.bottom-right{
+  outline: 1px solid black;
+  flex: 1;
+}
+.top-left{
+  background-image: url('./images/chatthru.png');
+  color: #282c34;
+}
 @keyframes downdown {
   0%{
     
@@ -315,5 +365,12 @@ width: 90%;
   }
   .projects-body{
     width: 100%;
+  }
+  .abody{
+    flex-direction: column;
+  }
+  .all-tech-stack{
+    margin-top: 30px;
+    width: 350px;
   }
 }
