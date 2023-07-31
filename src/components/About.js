@@ -2,9 +2,10 @@ import background1 from '../images/hast.png'
 import background2 from '../images/ic_framework (1).svg'
 import background3 from '../images/ic_skills.svg'
 import background4 from '../images/shape1.png'
+import React from 'react'
 
-function About() {
-    return(<div className="abody">
+const  About = React.forwardRef((props,ref)=>{
+    return(<div ref={ref} className="abody">
         <div className="mabout"> <h1 className="main-headings">ABOUT</h1>
         <div className="sabout">
             Iam a MERN stack developer . I am interested in Full Stack positions, here you can see some of my projects, if you like what you see do not hesitate to contact me.
@@ -65,5 +66,5 @@ function About() {
         </div>
 
     </div>)
-}
+}) 
 export default About

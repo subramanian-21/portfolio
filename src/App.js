@@ -7,7 +7,10 @@ import Projects from './components/Projects';
 import About from './components/About';
 import { useRef } from 'react';
 
+
 function App() {
+
+  
   const hello = useRef(null)
   const project = useRef(null)
   const about = useRef(null)
