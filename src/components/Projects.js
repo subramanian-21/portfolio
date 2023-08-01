@@ -23,7 +23,7 @@ return(
                 <div className="p1">
                     <div className="q1">
                         <div className="o1">
-                            <div className="n1"  > <img className='img' src={hangman} alt=""/>
+                            <a rel='noreferrer' target="_blank" href='https://github.com/thugperfect/hangman-game' className="n1"  > <img className='img' src={hangman} alt=""/>
                             <div className="hangman">
                                 <div className='pro-main'> <div className='title'>Hangman Game</div>
                                 <div className='sub'>Hangman game using vanilla Js</div>
@@ -31,42 +31,42 @@ return(
                                 </div>
                                
                             </div>
-                            </div>
-                            <div className="n2"><img className='img' src={mathmagician} alt=""/>
+                            </a>
+                            <a rel='noreferrer' target="_blank" href='https://github.com/thugperfect/math-magicians' className="n2"><img className='img' src={mathmagician} alt=""/>
                             
                             <div className='mathmagician'>
                             <div className='pro-main'> <div className='title'>Math Magician</div>
                                 <div className='sub'>It is just a riddle app with calculator which fetches questions from json</div>
-                                <div className='stack'>Tech Stack :React ,Sass,JSON</div></div></div></div>
+                                <div className='stack'>Tech Stack :React ,Sass,JSON</div></div></div></a>
                         </div>
-                        <div className="o2"><img className='img' src={imagefetch} alt=""/>
+                        <a rel='noreferrer' target="_blank" href='https://github.com/thugperfect/ImageSearcher' className="o2"><img className='img' src={imagefetch} alt=""/>
                         
                         <div className='imagefetch'>
                         <div className='pro-main'> <div className='title'>Image Fetch</div>
                                 <div className='sub'>A image finder application connected with Unsplash API</div>
-                                <div className='stack'>Tech Stack :HTML,CSS,JS,Axios</div></div></div></div>
+                                <div className='stack'>Tech Stack :HTML,CSS,JS,Axios</div></div></div></a>
                     </div>
-                    <div className="q2"><img className='img' src={imagetoolkitport} alt=""/>
+                    <a rel='noreferrer' target="_blank" href='https://github.com/thugperfect/ImageToolKit' className="q2"><img className='img' src={imagetoolkitport} alt=""/>
                     
                     <div className='imagetoolkit'><div className='pro-main'> <div className='title'>ImageToolKit</div>
                                 <div className='sub'>ImageToolkit is a image altering application that does fetches the image and converts it into required at the backend using JIMP</div>
-                                <div className='stack'>Tech Stack :React,Express,Jimp,Cors,...</div></div></div></div>
+                                <div className='stack'>Tech Stack :React,Express,Jimp,Cors,...</div></div></div></a>
                 </div>
-                <div className="p2">
+                <a rel='noreferrer' target="_blank" href='https://github.com/thugperfect/newsPro' className="p2">
                     <img className='img' src={newspro} alt=""/>
                     <div className='newspro'><div className='pro-main'> <div className='title'>Newspro</div>
                                 <div className='sub'>News Reader Application Connected with API</div>
                                 <div className='stack'>Tech Stack :React,Axios,..</div>
                                 </div></div>
-                </div>
+                </a>
             </div>
-            <div className="m2">
+            <a rel='noreferrer' target="_blank" href='https://github.com/thugperfect/chatThru' className="m2">
                 <img className="img" src={chatthruport} alt="none"/>
                 <div className='chatthru'><div className='pro-main'> <div className='title'>ChatThru</div>
                                 <div className='sub '>A Social Media Application that provides users with CRUD operations..</div>
                                 
                                 <div className='stack'>Tech Stack : React,Express,Mongoose,MongoDB,..</div></div></div>
-            </div>
+            </a>
             </div>
             </div>
             </div>

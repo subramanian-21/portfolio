@@ -254,7 +254,7 @@ height: 100%;
   position: absolute;
   top: 0;
   display: none;
-
+  cursor: pointer;
 }
 .hov:hover{
   display: block;
