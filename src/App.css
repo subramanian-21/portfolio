@@ -358,6 +358,20 @@ width: 90%;
 .bold{
   font-weight: 700;
 }
+.viewmore{
+  margin: 20px;
+  padding: 15px;
+  font-size: large;
+  background-color: #282c34;
+  color: white;
+  
+
+}
+.viewmore:hover{
+  outline: 1px solid #282c34;
+  background-color: white;
+  color: #282c34;
+}
 @keyframes downdown {
   0%{
     

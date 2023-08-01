@@ -69,8 +69,17 @@ return(
             </a>
             </div>
             </div>
+            <a href='https://github.com/thugperfect?tab=repositories'>
+
+            <button className='viewmore'>View More Projetcs...</button>
+            </a>
+            <div className='calendar'>
+                calendar
             </div>
-    
+            {  GitHubCalendar(".calendar", "your-username", { responsive: true })}
+            
+            </div>
+    //https://github.com/thugperfect?tab=repositories
   
 )
 }) 
