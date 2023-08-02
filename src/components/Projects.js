@@ -72,7 +72,7 @@ return(
             </a>
             </div>
             </div>
-            <a href='https://github.com/thugperfect?tab=repositories'>
+            <a rel='noreferrer' target="_blank" href='https://github.com/thugperfect?tab=repositories'>
 
             <button className='viewmore'>View More Projetcs...</button>
             </a>
