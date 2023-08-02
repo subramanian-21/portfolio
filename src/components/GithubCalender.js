@@ -1,12 +1,12 @@
 import { useEffect } from "react"
-import gitHubcalendar from '@hackclub/github-calendar';
+import gitHubcalendar from 'github-calendar';
 
 
-const GitHubCalendar = ({username}) =>{  useEffect(() => {
+const GithubCalendar = ({username}) =>{  useEffect(() => {
     gitHubcalendar('.github-calendar', username, { responsive: true });
   }, [username]);
 
   return <div className="github-calendar"></div>;
 
 }
-export default GitHubCalendar
+export default GithubCalendar
