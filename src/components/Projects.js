@@ -11,12 +11,12 @@ import mathmagician from '../images/mathmagician.png'
 import mathmagicianport from '../images/mathmagicianportrait.png'
 import newspro from '../images/newspro.png'
 import React from 'react'
-import GitHubCalendar from './GithubCalender'
+import GithubCalendar from './GithubCalender'
 
 
 const Projects = React.forwardRef((props,ref)=>{
 const thugperfect = "thugperfect"
-      GitHubCalendar(".calendar", "thugperfect", { responsive: true })
+     
 return(
     <div ref={ref} className="p-body">
       <h1 className='main-headings'>PROJECTS</h1>
@@ -79,7 +79,12 @@ return(
             <script
   src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
 </script>
-            <GitHubCalendar username={thugperfect} />
+
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+/>
+            <GithubCalendar username={thugperfect} />
            
             
             </div>
