@@ -37,16 +37,22 @@ function App() {
 <div onClick={handleAboutClick} className='btns'>About</div>
 
 <div onClick={handleFooterClick} className="btns">Contact</div>
+
+
 </div>
-  
-    <Hola ref={hello}/>
 
-    <Projects ref={project}/>
+<div >
 
-    <About ref={about}/>
+<Hola ref={hello}/>
 
-    <Footer ref={footer}/>
+<Projects ref={project}/>
 
+<About ref={about}/>
+
+<Footer ref={footer}/>
+
+  </div> 
+ 
 
     </div>
   );

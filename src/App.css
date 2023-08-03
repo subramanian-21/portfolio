@@ -390,6 +390,22 @@ width: 90%;
     top:0px;
   }
 }
+
+@media(min-width:700px){
+.App{
+  display: flex;
+
+}
+.header{
+  width: 100px;
+  height:100vh;
+  display: flex;
+  flex-direction: column;
+}
+.body{
+  height: 800px;
+}
+}
 @media(max-width:600px){
   .innerbody{
     margin-left: 5%;
