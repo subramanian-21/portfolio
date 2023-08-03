@@ -25,9 +25,7 @@
   margin: 10px;
   cursor: pointer;
 }
-.btns:hover{
-  font-size: 20px;
-}
+
 .innerbody{
  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
@@ -372,6 +370,7 @@ width: 90%;
   background-color: white;
   color: #282c34;
 }
+
 @keyframes downdown {
   0%{
     
@@ -397,16 +396,26 @@ width: 90%;
 
 }
 .header{
-  width: 100px;
+  
   height:100vh;
   display: flex;
   flex-direction: column;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  
+  
+}
+.btns{
+margin: 20px;
 }
 .body{
   height: 800px;
 }
+.btns:hover{
+  text-decoration: underline;
 }
-@media(max-width:600px){
+}
+@media(max-width:700px){
   .innerbody{
     margin-left: 5%;
   }
@@ -431,5 +440,8 @@ width: 90%;
   }
   .myname{
     font-size: 40px;
+  }
+  .btns:hover{
+    font-size: 20px;
   }
 }
