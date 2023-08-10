@@ -1,4 +1,3 @@
 
-# My Portfolio
-    check out link - [goto portfolio](https://subramanian.onrender.com/)
+# My Portfolio - [goto portfolio](https://subramanian.onrender.com/)
 
