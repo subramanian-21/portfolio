@@ -53,11 +53,11 @@
 }
 
 #contact-me{
-  font-size: 25px;
+  font-size: 20px;
   background-color: #282c34;
   color: white;
   padding: 15px;
-  width: 150px;
+width: 200px;
   display: flex;
   justify-content: center;
   cursor: pointer;

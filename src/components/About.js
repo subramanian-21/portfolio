@@ -11,7 +11,7 @@ const  About = React.forwardRef((props,ref)=>{
             Iam a MERN stack developer . I am interested in Full Stack positions, here you can see some of my projects, if you like what you see do not hesitate to contact me.
 
         </div>
-        <a href='mailto: meenamani9444@gmail.com' id="contact-me">Collaborate</a>
+        <a href='mailto: meenamani9444@gmail.com' id="contact-me">Start Collaboration</a>
         </div>
        
         <div className="tech-stack">
