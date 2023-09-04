@@ -6,7 +6,7 @@ const Main = ()=>{
         <Router>
             <Routes>
                 <Route path="/" Component={App}></Route>
-                <Route path="/games" Component={Games}></Route>
+                <Route path="/mini" Component={Games}></Route>
             </Routes>
         </Router>
     )
