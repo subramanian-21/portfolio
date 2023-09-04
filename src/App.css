@@ -1,4 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
+@layer base{
+  html{
+    @apply bg-zinc-800
+  }
+}
+::-webkit-scrollbar{
+  width: 5px;
+}
+::-webkit-scrollbar-thumb{
+  background-color: aliceblue;
+}
 
 .App{
  
@@ -102,7 +116,7 @@ img{
 }
 h1{
   font-size: 40px;
-  color: #282c34;
+  color: white;
 }
 .body{
   display: flex;
@@ -298,7 +312,6 @@ width: 90%;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .sabout{
-  color:black;
   width: 80%;
 }
 .mabout{
@@ -316,8 +329,8 @@ width: 90%;
 }
 .all-tech-stack{
   outline: 1px solid black;
-  width: 400px;
-  height:400px;
+  width: 450px;
+  height:450px;
   display: flex;
   flex-direction: column;
 }
@@ -331,17 +344,18 @@ width: 90%;
   
   flex: 1;
   background-repeat: no-repeat;
+  padding: 10px;
 
 
 }
 .top-left{
-  background-color: #282c34;
+  background-color: #1067aa;
 }
 .bottom-left{
   background-color: red;
 }
 .top-right{
-  background-color: rgba(255, 255, 0, 0.529);
+  background-color: white;
 }
 .about-heading{
   color: white;
@@ -349,6 +363,9 @@ width: 90%;
   margin-left: 5px;
   margin-top: 10px;
 
+}
+.bottom-right{
+  background-color: bisque;
 }
 .black{
   color: black;
@@ -400,8 +417,8 @@ width: 90%;
   height:100vh;
   display: flex;
   flex-direction: column;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-top-right-radius: 20px;
+  
   
   
 }
