@@ -1,4 +1,4 @@
 const Hangman = ()=>{
-return(<div className="w-full bg-slate-50 h-full">scdkjcds </div>)
+return(<div className="w-full text-2xl h-full">hangman </div>)
 }
 export default Hangman
