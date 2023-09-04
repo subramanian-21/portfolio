@@ -30,7 +30,7 @@ function App() {
   };
   return (
     <div className="App">
-   <div className="header">
+   <div className="header bg-neutral-800 outline outline-1 outline-gray-600">
 
 <div onClick={handleHelloClick} className='btns'>Me</div>
 <div onClick={handleProjectClick} className='btns'>Projects</div>
