@@ -9,10 +9,10 @@ setHover(!hover)
   }
   console.log(hover);
   return( <div ref={ref} className='body'>
-  <div className='innerbody bg-slate-700 outline outline-1 outline-gray-600'>
+  <div className='innerbody color-change bg-slate-700 outline outline-1 outline-gray-600'>
 
       <div className="minnerbody">
-      <div className='myname text-white px-3'>Subramanian M</div>
+      <div className='myname  text-white px-3'>Subramanian M</div>
       <h3 className='edu px-3 text-gray-400'>Final Year Computer Science Engineering</h3>
       <h4 className='objective  text-gray-400 px-3'>A Highly motivated and fully oriented Full-Stack Developer</h4>
 
