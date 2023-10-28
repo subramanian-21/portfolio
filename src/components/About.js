@@ -4,11 +4,11 @@ import background4 from '../images/shape1.png'
 import background5 from '../images/image_dots_with_teal.png'
 import React from 'react'
 
-const  About = (props,ref)=>{
-    return(<div ref={ref} className="abody">
+const  About = (props)=>{
+    return(<div  className="abody">
         <div className="mabout"> <h1 className="main-headings">ABOUT</h1>
         <div className="sabout text-gray-400">
-            Iam a MERN stack developer . I am interested in Full Stack positions, here you can see some of my projects, if you like what you see do not hesitate to contact me.
+            Iam a MERN stack developer . I am interested in Full Stack positions, here you have seen some of my projects, if you like what you see do not hesitate to contact me.
 
         </div>
         <a href='mailto: meenamani9444@gmail.com' id="contact-me">Start Collaboration</a>

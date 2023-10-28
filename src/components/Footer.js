@@ -1,6 +1,6 @@
-const Footer = (props, ref) => {
+const Footer = (props) => {
   return (
-    <div ref={ref} className="footer">
+    <div  className="footer">
       <div className="footer-contents">
         <a className="mail" href="mailto: meenamani9444@gmail.com">
           <svg

@@ -4,16 +4,17 @@ import hangman from '../images/hangman.png'
 import imagetoolkitport from '../images/itk.png'
 import mathmagician from '../images/mathmagician.png'
 import newspro from '../images/newspro.png'
+import playfolio from '../images/playfolio.png'
 
 import React from 'react'
 
 
 
-const Projects = (props,ref)=>{
+const Projects = (props)=>{
 
      
 return(
-    <div ref={ref} className="p-body">
+    <div  className="p-body">
       <h1 className='main-headings'>PROJECTS</h1>
         <div className="projects-body">
             <div className="m3">
@@ -50,11 +51,11 @@ return(
                                 <div className='sub'>ImageToolkit is a image altering application that does fetches the image and converts it into required at the backend using JIMP</div>
                                 <div className='stack'>Tech Stack :Angular, Express, Jimp, Cors, ...</div></div></div></a>
                 </div>
-                <a rel='noreferrer' target="_blank" href='https://github.com/thugperfect/newsPro' className="p2">
-                    <img className='img' src={newspro} alt=""/>
-                    <div className='newspro'><div className='pro-main'> <div className='title'>Newspro</div>
-                                <div className='sub'>News Reader Application Connected with API</div>
-                                <div className='stack'>Tech Stack :React,Axios,..</div>
+                <a rel='noreferrer' target="_blank" href='https://github.com/thugperfect/playfolio' className="p2">
+                    <img className='img' src={playfolio} alt=""/>
+                    <div className='newspro'><div className='pro-main'> <div className='title'>PlayFolio</div>
+                                <div className='sub'>Playfolio contains all games fetched from RAWG Api</div>
+                                <div className='stack'>Tech Stack :Angular, Api</div>
                                 </div></div>
                 </a>
             </div>

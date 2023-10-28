@@ -26,9 +26,11 @@ function App() {
     about.current?.scrollIntoView({ behavior: 'smooth' });
   };
   const handleFooterClick = () => {
-    // footer.current?.scrollIntoView({ behavior: 'smooth' });
     footer.current?.scrollIntoView({behavior:'smooth'})
   };
+  const handleRef = (ref) =>{
+    ref.current.scrollIntoView({behavior:'smooth'})
+  }
   return (
     <div className="App">
    <div className="header bg-neutral-800 outline outline-1 outline-gray-600">
@@ -44,7 +46,7 @@ function App() {
 
 <div >
 
-<div ref={hello}><Hola /></div>
+<div ref={hello}><Hola  handleChange={handleProjectClick}/></div>
 <div ref={project}><Projects /></div>
 <div ref={about}><About /></div>
 <div ref={footer}><Footer /></div>
