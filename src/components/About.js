@@ -1,11 +1,10 @@
 import background1 from '../images/hast.png'
-import background2 from '../images/ic_framework (1).svg'
 import background3 from '../images/ic_skills.svg'
 import background4 from '../images/shape1.png'
 import background5 from '../images/image_dots_with_teal.png'
 import React from 'react'
 
-const  About = React.forwardRef((props,ref)=>{
+const  About = (props,ref)=>{
     return(<div ref={ref} className="abody">
         <div className="mabout"> <h1 className="main-headings">ABOUT</h1>
         <div className="sabout text-gray-400">
@@ -29,12 +28,12 @@ const  About = React.forwardRef((props,ref)=>{
                      </div>
                      <div className="top-right " style={{ backgroundImage: `url(${background5})` }}>
 
-                     <div className='about-heading black'>Frameworks and libraries</div>
+                     <div className='about-heading black'>Skills</div>
                      <ul className='black bold'>
                     
                          <li>VS Code</li>
                         <li>Git & Github</li>
-                        <li>Terminal</li>
+                        <li>Linux Terminal</li>
                         <li>Postman</li>
                     </ul>
                      </div>
@@ -42,14 +41,14 @@ const  About = React.forwardRef((props,ref)=>{
                 <div className="bottom-stack">
                         
                     <div className="bottom-left" style={{ backgroundImage: `url(${background3})` }}>
-                    <div className='about-heading'>Skills</div>
+                    <div className='about-heading'>Frameworks and libraries</div>
                     <ul className='bold'>
                     <li>Node.js</li>
                         <li>React.js</li>
                         <li>Express.js</li>
                         <li>Redux.js</li>
                         <li>Redux Toolkit</li>
-                        <li>React Redux</li>
+                        <li>Angular</li>
                        
                       
                         </ul>
@@ -69,5 +68,5 @@ const  About = React.forwardRef((props,ref)=>{
         </div>
 
     </div>)
-}) 
+}
 export default About

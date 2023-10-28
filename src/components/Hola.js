@@ -1,13 +1,17 @@
 import React, {useState} from "react"
 import { Link } from "react-router-dom"
 import scroll from '../images/1921075-200.png'
-const Hola = React.forwardRef((props,ref)=>{
+import { forwardRef } from "react"
+const Hola = (props,ref)=>{
   const [hover,setHover] = useState(false)
   const toggleHover =()=>{
 setHover(!hover)
       
   }
-  console.log(hover);
+  console.log(hover)
+  const handleProjects = (bool) =>{
+
+  }
   return( <div ref={ref} className='body'>
   <div className='innerbody color-change bg-black outline outline-1 outline-gray-600'>
   <div className="w-4/5 mt-4  text-xl text-white mr-5 flex justify-end ">
@@ -24,13 +28,13 @@ setHover(!hover)
    
       <div onMouseEnter={toggleHover} onMouseLeave={toggleHover} className='scroll' >
      <img id='scroll' className={hover ? 'downdown':''}  src={scroll} alt="none"/>
-   <div className='projects text-gray-300'>Projects</div>
+   <div onClick={handleProjects} className='projects text-gray-300 cursor-pointer'>Projects</div>
   </div>
   </div>
 
 </div>)
 
-}) 
+}
    
 
 export default Hola

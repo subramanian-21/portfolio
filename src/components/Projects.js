@@ -9,7 +9,7 @@ import React from 'react'
 
 
 
-const Projects = React.forwardRef((props,ref)=>{
+const Projects = (props,ref)=>{
 
      
 return(
@@ -35,20 +35,20 @@ return(
                             <div className='mathmagician'>
                             <div className='pro-main'> <div className='title'>Math Magician</div>
                                 <div className='sub'>It is just a riddle app with calculator which fetches questions from json</div>
-                                <div className='stack'>Tech Stack :React ,Sass,JSON</div></div></div></a>
+                                <div className='stack'>Tech Stack :React, Sass, JSON</div></div></div></a>
                         </div>
                         <a rel='noreferrer' target="_blank" href='https://github.com/thugperfect/ImageSearcher' className="o2"><img className='img' src={imagefetch} alt=""/>
                         
                         <div className='imagefetch'>
                         <div className='pro-main'> <div className='title'>Image Fetch</div>
                                 <div className='sub'>A image finder application connected with Unsplash API</div>
-                                <div className='stack'>Tech Stack :HTML,CSS,JS,Axios</div></div></div></a>
+                                <div className='stack'>Tech Stack :HTML, CSS, JS, Axios</div></div></div></a>
                     </div>
                     <a rel='noreferrer' target="_blank" href='https://github.com/thugperfect/ImageToolKit' className="q2"><img className='img' src={imagetoolkitport} alt=""/>
                     
                     <div className='imagetoolkit'><div className='pro-main'> <div className='title'>ImageToolKit</div>
                                 <div className='sub'>ImageToolkit is a image altering application that does fetches the image and converts it into required at the backend using JIMP</div>
-                                <div className='stack'>Tech Stack :React,Express,Jimp,Cors,...</div></div></div></a>
+                                <div className='stack'>Tech Stack :Angular, Express, Jimp, Cors, ...</div></div></div></a>
                 </div>
                 <a rel='noreferrer' target="_blank" href='https://github.com/thugperfect/newsPro' className="p2">
                     <img className='img' src={newspro} alt=""/>
@@ -63,7 +63,7 @@ return(
                 <div className='chatthru'><div className='pro-main'> <div className='title'>ChatThru</div>
                                 <div className='sub '>A Social Media Application that provides users with CRUD operations..</div>
                                 
-                                <div className='stack'>Tech Stack : React,Express,Mongoose,MongoDB,..</div></div></div>
+                                <div className='stack'>Tech Stack : React, Express, Mongoose, MongoDB, ..</div></div></div>
             </a>
             </div>
             </div>
@@ -77,7 +77,7 @@ return(
     //https://github.com/thugperfect?tab=repositories
   
 )
-}) 
+}
   
 
 export default Projects
