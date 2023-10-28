@@ -3,7 +3,7 @@ import imagefetch from '../images/imagefinder.png'
 import hangman from '../images/hangman.png'
 import imagetoolkitport from '../images/itk.png'
 import mathmagician from '../images/mathmagician.png'
-import newspro from '../images/newspro.png'
+import kumazon from '../images/kumazon.png'
 import playfolio from '../images/playfolio.png'
 
 import React from 'react'
@@ -38,12 +38,12 @@ return(
                                 <div className='sub'>It is just a riddle app with calculator which fetches questions from json</div>
                                 <div className='stack'>Tech Stack :React, Sass, JSON</div></div></div></a>
                         </div>
-                        <a rel='noreferrer' target="_blank" href='https://github.com/thugperfect/ImageSearcher' className="o2"><img className='img' src={imagefetch} alt=""/>
+                        <a rel='noreferrer' target="_blank" href='https://github.com/thugperfect/ImageSearcher' className="o2"><img className='img' src={kumazon} alt=""/>
                         
                         <div className='imagefetch'>
                         <div className='pro-main'> <div className='title'>Image Fetch</div>
-                                <div className='sub'>A image finder application connected with Unsplash API</div>
-                                <div className='stack'>Tech Stack :HTML, CSS, JS, Axios</div></div></div></a>
+                                <div className='sub'>An Ecommerce App with product searching and Adding to Cart feature</div>
+                                <div className='stack'>Tech Stack :React, Redux-toolkit, React-Redux...</div></div></div></a>
                     </div>
                     <a rel='noreferrer' target="_blank" href='https://github.com/thugperfect/ImageToolKit' className="q2"><img className='img' src={imagetoolkitport} alt=""/>
                     
@@ -70,7 +70,7 @@ return(
             </div>
             <a rel='noreferrer' target="_blank" href='https://github.com/thugperfect?tab=repositories'>
 
-            <button className='viewmore'>View More Projetcs...</button>
+            <button className='viewmore'>View More Projects...</button>
             </a>
             
             
