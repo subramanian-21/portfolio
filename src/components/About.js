@@ -31,13 +31,12 @@ const  About = React.forwardRef((props,ref)=>{
 
                      <div className='about-heading black'>Frameworks and libraries</div>
                      <ul className='black bold'>
-                     <li>Node</li>
-                        <li>React</li>
-                        <li>Express</li>
-                        <li>Axios</li>
-                        <li>Mongoose</li>
-                       
-                        </ul>
+                    
+                         <li>VS Code</li>
+                        <li>Git & Github</li>
+                        <li>Terminal</li>
+                        <li>Postman</li>
+                    </ul>
                      </div>
                 </div>
                 <div className="bottom-stack">
@@ -45,10 +44,13 @@ const  About = React.forwardRef((props,ref)=>{
                     <div className="bottom-left" style={{ backgroundImage: `url(${background3})` }}>
                     <div className='about-heading'>Skills</div>
                     <ul className='bold'>
-                        <li>VS Code</li>
-                        <li>Git & Github</li>
-                        <li>Terminal</li>
-                        <li>Postman</li>
+                    <li>Node.js</li>
+                        <li>React.js</li>
+                        <li>Express.js</li>
+                        <li>Redux.js</li>
+                        <li>Redux Toolkit</li>
+                        <li>React Redux</li>
+                       
                       
                         </ul>
                     </div>

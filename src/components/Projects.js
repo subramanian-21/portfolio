@@ -1,15 +1,10 @@
 import chatthruport from '../images/chatthrupotrait.png'
-import chatthru from '../images/chatthrublack.png'
 import imagefetch from '../images/imagefinder.png'
-import imagefetchport from '../images/imagefinderportrait.png'
 import hangman from '../images/hangman.png'
-import hangmanport from '../images/hangmanportrait.png'
-import handcricket from '../images/handcricket.png'
-import imagetoolkit from '../images/imagetoolkit.png'
-import imagetoolkitport from '../images/imagetoolkitportrait.png'
+import imagetoolkitport from '../images/itk.png'
 import mathmagician from '../images/mathmagician.png'
-import mathmagicianport from '../images/mathmagicianportrait.png'
 import newspro from '../images/newspro.png'
+
 import React from 'react'
 
 
