@@ -30,9 +30,11 @@ const  About = (props)=>{
 
                      <div className='about-heading black'>Skills</div>
                      <ul className='black bold'>
-                    
-                         <li>VS Code</li>
+
                         <li>Git & Github</li>
+                        <li>Render</li>
+                        <li>Netlify</li>
+                        <li>Heruko</li>
                         <li>Linux Terminal</li>
                         <li>Postman</li>
                     </ul>
@@ -49,8 +51,8 @@ const  About = (props)=>{
                         <li>Redux.js</li>
                         <li>Redux Toolkit</li>
                         <li>Angular</li>
-                       
-                      
+                        <li>Tailwindcss</li>
+
                         </ul>
                     </div>
                     <div className="bottom-right" style={{ backgroundImage: `url(${background4})` }}>
