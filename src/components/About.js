@@ -23,7 +23,7 @@ const  About = (props)=>{
                         <li>C</li>
                         <li>Java</li>
                         <li>JavaScript</li>
-                        
+                        <li>Typescript</li>
                         </ul>
                      </div>
                      <div className="top-right " style={{ backgroundImage: `url(${background5})` }}>
@@ -49,10 +49,9 @@ const  About = (props)=>{
                         <li>React.js</li>
                         <li>Express.js</li>
                         <li>Redux.js</li>
-                        <li>Redux Toolkit</li>
                         <li>Angular</li>
                         <li>Tailwindcss</li>
-
+                        <li>Bootstrap</li>
                         </ul>
                     </div>
                     <div className="bottom-right" style={{ backgroundImage: `url(${background4})` }}>
