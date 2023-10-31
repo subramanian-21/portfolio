@@ -398,10 +398,11 @@ bored:hover{
 .image-design{
  background-size: cover;
  background-position: top;
+ animation: scroll-image-back 3s ease-in-out;
 }
 .image-design:hover{
   background-position: bottom;
-  animation: scroll-image 5s ease-in;
+  animation: scroll-image 3s ease-in-out;
 }
 @keyframes changeOnHover {
   0%{
@@ -422,6 +423,16 @@ bored:hover{
     background-position: bottom;
   }
 }
+@keyframes scroll-image-back {
+  0%{
+    background-position: bottom;
+  }
+  100%{
+    background-position: top;
+  }
+ 
+}
+
 @keyframes downdown {
   0%{
     
@@ -451,10 +462,7 @@ bored:hover{
   height:100vh;
   display: flex;
   flex-direction: column;
-  border-top-right-radius: 20px;
-  
-  
-  
+  border-top-right-radius: 20px; 
 }
 .color-change{
   animation: colorchange 30s ease-in infinite;

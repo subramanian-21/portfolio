@@ -6,7 +6,8 @@ import mathmagician from '../images/mathmagician.png'
 import kumazon from '../images/kumazon.png'
 import playfolio from '../images/playfolio.png'
 import kumazonfull from "../images/kumazonfull.png"
-
+import playfoliofull from "../images/playfoliofull.png"
+import itkfull from "../images/itkfull.png"
 import React from 'react'
 
 
@@ -18,28 +19,27 @@ return(
     <div  className="p-body">
       <h1 className='main-headings'>PROJECTS</h1>
         <div className="projects-body">
-            <hr className='h-[5px] bg-white rounded-xl'/>
+            <hr className='h-[5px] bg-white rounded-xl flex'/>
 
+            <div className="w-full h-[400px] flex items-center">
+                <div className="w-[300px]">casbhcabicabcasibicasbiac</div>
+            <div className='right w-[300px] h-[400px] image-design' style={{backgroundImage:`url(${itkfull})`}} alt="" ></div>    
+            </div>
 
+            <div className="w-full h-[300px] flex items-center">
+            <div className='right w-[300px] h-[400px] image-design ' style={{backgroundImage:`url(${playfoliofull})`}} alt="" ></div>
+            <div className="w-[300px]">jbhacbsbicasbiuacsbi</div>
+            </div>
+           
 
-            <div className="w-full h-[300px] text-white flex">
-                <div className=" ">
-sdcdscuibasbukcbaskucb
+            <div className="w-full  h-[400px] text-white flex items-center">
+                <div className="w-[300px] ">
+                    acsjiicasjcaskjacskjacsakjb
                 </div>
-                <div className='right w-[350px] h-[300px] image-design ' style={{backgroundImage:`url(${kumazonfull})`}} alt="" ></div>
+                <div className='right w-[300px] h-[400px] image-design ' style={{backgroundImage:`url(${kumazonfull})`}} alt="" ></div>
             </div>
-            <div className="w-full h-[300px]">
-                
-            </div>
-            <div className="w-full h-[300px]">
-                
-            </div>
-            <div className="w-full h-[300px]">
-                
-            </div>
-            <div className="w-full h-[300px]">
-                
-            </div>
+
+        
             <hr className='h-[5px] bg-white rounded-xl'/>
             </div>
             <a rel='noreferrer' target="_blank" href='https://github.com/thugperfect?tab=repositories'>
