@@ -395,6 +395,14 @@ bored:hover{
   animation: changeOnHover 1s ease-in-out ;
 }
 
+.image-design{
+ background-size: cover;
+ background-position: top;
+}
+.image-design:hover{
+  background-position: bottom;
+  animation: scroll-image 5s ease-in;
+}
 @keyframes changeOnHover {
   0%{
     background-color: #282c34;
@@ -405,6 +413,14 @@ bored:hover{
     color: #282c34;
   }
  
+}
+@keyframes scroll-image {
+  0%{
+    background-position: top;
+  }
+  100%{
+    background-position: bottom;
+  }
 }
 @keyframes downdown {
   0%{

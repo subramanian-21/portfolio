@@ -5,7 +5,7 @@ import imagetoolkitport from '../images/itk.png'
 import mathmagician from '../images/mathmagician.png'
 import kumazon from '../images/kumazon.png'
 import playfolio from '../images/playfolio.png'
-
+import kumazonfull from "../images/kumazonfull.png"
 
 import React from 'react'
 
@@ -22,11 +22,11 @@ return(
 
 
 
-            <div className="w-full h-[300px] text-white">
-                <div className="">
-
+            <div className="w-full h-[300px] text-white flex">
+                <div className=" ">
+sdcdscuibasbukcbaskucb
                 </div>
-                <img src="" alt="" />
+                <div className='right w-[350px] h-[300px] image-design ' style={{backgroundImage:`url(${kumazonfull})`}} alt="" ></div>
             </div>
             <div className="w-full h-[300px]">
                 
