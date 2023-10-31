@@ -20,25 +20,43 @@ return(
       <h1 className='main-headings'>PROJECTS</h1>
         <div className="projects-body">
             <hr className='h-[5px] bg-white rounded-xl flex'/>
-
-            <div className="w-full h-[400px] flex items-center">
-                <div className="w-[300px]">casbhcabicabcasibicasbiac</div>
+<div className="w-full md:w-4/5 flex flex-col items-center">
+<div className="h-[400px] flex items-center">
+                <div className="w-full flex justify-center">
+                    <div className="w-[300px]">
+                    <div className="text-4xl">ImageToolKit</div>
+                    <div className="">ImageToolkit is a image altering application that does fetches the image and converts it into required at the backend using JIMP</div>
+                    </div>
+                    
+                </div>
             <div className='right w-[300px] h-[400px] image-design' style={{backgroundImage:`url(${itkfull})`}} alt="" ></div>    
             </div>
 
             <div className="w-full h-[300px] flex items-center">
             <div className='right w-[300px] h-[400px] image-design ' style={{backgroundImage:`url(${playfoliofull})`}} alt="" ></div>
-            <div className="w-[300px]">jbhacbsbicasbiuacsbi</div>
+            <div className="w-full flex justify-center">
+                    <div className="w-[300px]">
+                    <div className="text-4xl">PlayFolio</div>
+                    <div className="">Playfolio contains all games fetched from RAWG Api, any games can be searched and further details of the games can be viewed</div>
+                    </div>
+                    
+                </div>
             </div>
            
 
             <div className="w-full  h-[400px] text-white flex items-center">
-                <div className="w-[300px] ">
-                    acsjiicasjcaskjacskjacsakjb
+            <div className="w-full flex justify-center">
+                    <div className="w-[300px]">
+                    <div className="text-4xl">Kumazon</div>
+                    <div className="">An Ecommerce App that loads api contents, user can search for products and also it can be added to cart</div>
+                    </div>
+                    
                 </div>
                 <div className='right w-[300px] h-[400px] image-design ' style={{backgroundImage:`url(${kumazonfull})`}} alt="" ></div>
             </div>
 
+</div>
+           
         
             <hr className='h-[5px] bg-white rounded-xl'/>
             </div>
