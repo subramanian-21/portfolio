@@ -6,6 +6,7 @@ import mathmagician from '../images/mathmagician.png'
 import kumazon from '../images/kumazon.png'
 import playfolio from '../images/playfolio.png'
 
+
 import React from 'react'
 
 
@@ -17,7 +18,47 @@ return(
     <div  className="p-body">
       <h1 className='main-headings'>PROJECTS</h1>
         <div className="projects-body">
-            <div className="m3">
+            <hr className='h-[5px] bg-white rounded-xl'/>
+
+
+
+            <div className="w-full h-[300px] text-white">
+                <div className="">
+
+                </div>
+                <img src="" alt="" />
+            </div>
+            <div className="w-full h-[300px]">
+                
+            </div>
+            <div className="w-full h-[300px]">
+                
+            </div>
+            <div className="w-full h-[300px]">
+                
+            </div>
+            <div className="w-full h-[300px]">
+                
+            </div>
+            <hr className='h-[5px] bg-white rounded-xl'/>
+            </div>
+            <a rel='noreferrer' target="_blank" href='https://github.com/thugperfect?tab=repositories'>
+
+            <button className='viewmore'>View More Projects...</button>
+            </a>
+            
+            
+            </div>
+    //https://github.com/thugperfect?tab=repositories
+  
+)
+}
+  
+
+export default Projects
+
+/*
+<div className="m3">
             <div className="m1">
                 <div className="p1">
                     <div className="q1">
@@ -67,18 +108,4 @@ return(
                                 <div className='stack'>Tech Stack : React, Express, Mongoose, MongoDB, ..</div></div></div>
             </a>
             </div>
-            </div>
-            <a rel='noreferrer' target="_blank" href='https://github.com/thugperfect?tab=repositories'>
-
-            <button className='viewmore'>View More Projects...</button>
-            </a>
-            
-            
-            </div>
-    //https://github.com/thugperfect?tab=repositories
-  
-)
-}
-  
-
-export default Projects
+*/

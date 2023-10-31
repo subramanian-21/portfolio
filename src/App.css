@@ -159,11 +159,8 @@ svg:hover{
 
 }
 .projects-body{
-
 background-color: #282c34;
-
 width: 90%;
-border-bottom: 1px solid;
 }
 .p-body{
 
@@ -364,7 +361,8 @@ width: 90%;
 
 }
 .bottom-right{
-  background-color: bisque;
+  background-color: red;
+  background-position: right;
 }
 .black{
   color: black;

@@ -2,6 +2,8 @@ import background1 from '../images/hast.png'
 import background3 from '../images/ic_skills.svg'
 import background4 from '../images/shape1.png'
 import background5 from '../images/image_dots_with_teal.png'
+import icfr from '../images/icfr.jpg'
+import icfr1 from "../images/icfr1.jpg"
 import React from 'react'
 
 const  About = (props)=>{
@@ -26,10 +28,10 @@ const  About = (props)=>{
                         <li>Typescript</li>
                         </ul>
                      </div>
-                     <div className="top-right " style={{ backgroundImage: `url(${background5})` }}>
+                     <div className="top-right " style={{ backgroundImage: `url(${icfr})` }}>
 
-                     <div className='about-heading black'>Skills</div>
-                     <ul className='black bold'>
+                     <div className='about-heading '>Skills</div>
+                     <ul className=' bold'>
 
                         <li>Git & Github</li>
                         <li>Render</li>
@@ -42,7 +44,7 @@ const  About = (props)=>{
                 </div>
                 <div className="bottom-stack">
                         
-                    <div className="bottom-left" style={{ backgroundImage: `url(${background3})` }}>
+                    <div className="bottom-left" style={{ backgroundImage: `url(${icfr1})` }}>
                     <div className='about-heading'>Frameworks and libraries</div>
                     <ul className='bold'>
                     <li>Node.js</li>
@@ -54,9 +56,9 @@ const  About = (props)=>{
                         <li>Bootstrap</li>
                         </ul>
                     </div>
-                    <div className="bottom-right" style={{ backgroundImage: `url(${background4})` }}>
-                    <div className='about-heading black'>DataBase</div>
-                    <ul className='black bold' >
+                    <div className="bottom-right bg-red-500" style={{ backgroundImage: `url(${background3})` }}>
+                    <div className='about-heading '>DataBase</div>
+                    <ul className=' bold' >
                         <li>SQL</li>
                         <li>MongoDB</li>
                        
