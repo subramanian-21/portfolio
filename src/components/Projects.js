@@ -27,15 +27,16 @@ const Projects = (props) => {
         {
             bool ? 
             <div className=" flex flex-col items-center">
-            <div className="w-full sm:w-4/5 h-[400px] flex items-center">
+            <a href="https://github.com/thugperfect/ImageToolKit"  target="_blank" rel="noreferrer" className="w-full sm:w-4/5 h-[400px] flex items-center hover:bg-slate-600">
               <div className="w-full flex justify-center">
-                <div className="w-[130px] sm:w-[300px] lg:w-[400px]">
+                <div  className="w-[130px] sm:w-[300px] lg:w-[400px]">
                   <div className="text-2xl">ImageToolKit</div>
                   <div className="text-[12px] sm:text-[15px]">
                     ImageToolkit is a image altering application that does fetches
                     the image and converts it into required at the backend using
                     JIMP
                   </div>
+                  <div className="text-gray-400">Tech Stack :Angular, Express, Jimp, Cors, ...</div>
                 </div>
               </div>
               <div
@@ -43,11 +44,11 @@ const Projects = (props) => {
                 style={{ backgroundImage: `url(${itkfull})` }}
                 alt=""
               ></div>
-            </div>
+            </a>
   
-            <div className="w-full sm:w-4/5 h-[300px] flex items-center">
+            <a href="https://github.com/thugperfect/PlayFolio" target="_blank" rel="noreferrer" className="w-full sm:w-4/5 h-[300px] flex items-center hover:bg-slate-600">
               <div
-                className="right w-[300px] h-[400px] image-design "
+                className="right w-[300px] h-[400px] image-design z-10 "
                 style={{ backgroundImage: `url(${playfoliofull})` }}
                 alt=""
               ></div>
@@ -58,17 +59,21 @@ const Projects = (props) => {
                     Playfolio contains all games fetched from RAWG Api, any games
                     can be searched and further details of the games can be viewed
                   </div>
+                  <div className="text-gray-400">Tech Stack :Angular, RAWG Api</div>
                 </div>
               </div>
-            </div>
+            </a>
   
-            <div className="w-full sm:w-4/5  h-[400px] text-white flex items-center">
+            <a href="https://github.com/thugperfect/Ecommerce-Redux-App" target="_blank" rel="noreferrer" className="w-full sm:w-4/5  h-[400px] text-white flex items-center hover:bg-slate-600">
               <div className="w-full flex justify-center">
                 <div className="w-[130px] sm:w-[300px] lg:w-[400px]">
                   <div className="text-2xl">Kumazon</div>
                   <div className="text-[12px] sm:text-[15px]">
                     An Ecommerce App that loads api contents, user can search for
                     products and also it can be added to cart
+                  </div>
+                  <div className="text-gray-400">
+                  Tech Stack :React, Redux-toolkit, React-Redux...
                   </div>
                 </div>
               </div>
@@ -77,7 +82,7 @@ const Projects = (props) => {
                 style={{ backgroundImage: `url(${kumazonfull})` }}
                 alt=""
               ></div>
-            </div>
+            </a>
           </div>
           :
             <div className="">
