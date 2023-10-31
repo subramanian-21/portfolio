@@ -1,7 +1,6 @@
 import background1 from '../images/hast.png'
 import background3 from '../images/ic_skills.svg'
-import background4 from '../images/shape1.png'
-import background5 from '../images/image_dots_with_teal.png'
+
 import icfr from '../images/icfr.jpg'
 import icfr1 from "../images/icfr1.jpg"
 import React from 'react'
