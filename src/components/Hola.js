@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 import scroll from "../images/1921075-200.png";
 const Hola = ({handleChange}) => {
   const [hover, setHover] = useState(false);
@@ -12,11 +11,11 @@ const Hola = ({handleChange}) => {
     <div className="body">
       <div className="innerbody color-change bg-black outline outline-1 outline-gray-600">
         <div className="w-4/5 mt-4  text-xl text-white mr-5 flex justify-end ">
-          <Link to="https://vanillajsprojects.onrender.com/">
+          <a href="https://vanillajsprojects.onrender.com/">
             <div className="bored bg-[#282c34] pt-2 pb-2 pl-5 pr-5 cursor-pointer   rounded-full">
               bored?
             </div>
-          </Link>
+          </a>
         </div>
         <div className="minnerbody">
           <div className="myname  text-white px-3">Subramanian M</div>
