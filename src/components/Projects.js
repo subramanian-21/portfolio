@@ -16,16 +16,16 @@ const Projects = (props)=>{
 
      
 return(
-    <div  className="p-body">
-      <h1 className='main-headings'>PROJECTS</h1>
+    <div  className="p-body flex justify-center">
+      <h1 className='main-headings p-5'>PROJECTS</h1>
         <div className="projects-body">
             <hr className='h-[5px] bg-white rounded-xl flex'/>
 <div className=" flex flex-col items-center">
 <div className="w-full sm:w-4/5 h-[400px] flex items-center">
                 <div className="w-full flex justify-center">
-                    <div className="w-[130px] sm:w-[300px]">
+                    <div className="w-[130px] sm:w-[300px] lg:w-[400px]">
                     <div className="text-2xl">ImageToolKit</div>
-                    <div className="text-[12px]">ImageToolkit is a image altering application that does fetches the image and converts it into required at the backend using JIMP</div>
+                    <div className="text-[12px] sm:text-[15px]">ImageToolkit is a image altering application that does fetches the image and converts it into required at the backend using JIMP</div>
                     </div>
                     
                 </div>
@@ -35,9 +35,9 @@ return(
             <div className="w-full sm:w-4/5 h-[300px] flex items-center">
             <div className='right w-[300px] h-[400px] image-design ' style={{backgroundImage:`url(${playfoliofull})`}} alt="" ></div>
             <div className="w-full flex justify-center">
-                    <div className="w-[130px] sm:w-[300px]">
+                    <div className="w-[130px] sm:w-[300px] lg:w-[400px]">
                     <div className="text-2xl">PlayFolio</div>
-                    <div className="text-[12px]">Playfolio contains all games fetched from RAWG Api, any games can be searched and further details of the games can be viewed</div>
+                    <div className="text-[12px] sm:text-[15px]">Playfolio contains all games fetched from RAWG Api, any games can be searched and further details of the games can be viewed</div>
                     </div>
                     
                 </div>
@@ -46,9 +46,9 @@ return(
 
             <div className="w-full sm:w-4/5  h-[400px] text-white flex items-center">
             <div className="w-full flex justify-center">
-                    <div className="w-[130px] sm:w-[300px]">
+                    <div className="w-[130px] sm:w-[300px] lg:w-[400px]">
                     <div className="text-2xl">Kumazon</div>
-                    <div className="text-[12px]">An Ecommerce App that loads api contents, user can search for products and also it can be added to cart</div>
+                    <div className="text-[12px] sm:text-[15px]">An Ecommerce App that loads api contents, user can search for products and also it can be added to cart</div>
                     </div>
                     
                 </div>

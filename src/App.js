@@ -44,10 +44,10 @@ function App() {
 
 </div>
 
-<div >
+<div className='w-full'>
 
 <div ref={hello}><Hola  handleChange={handleProjectClick}/></div>
-<div ref={project}><Projects /></div>
+<div  ref={project}><Projects /></div>
 <div ref={about}><About /></div>
 <div ref={footer}><Footer /></div>
 
