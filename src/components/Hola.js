@@ -5,14 +5,12 @@ const Hola = ({handleChange}) => {
   const toggleHover = () => {
     setHover(!hover);
   };
-  console.log(hover);
-
   return (
     <div className="body">
       <div className="innerbody color-change bg-black outline outline-1 outline-gray-600">
         <div className="w-4/5 mt-4  text-xl text-white mr-5 flex justify-end ">
-          <a href="https://vanillajsprojects.onrender.com/">
-            <div className="bored bg-[#282c34] pt-2 pb-2 pl-5 pr-5 cursor-pointer   rounded-full">
+          <a href="https://vanillajsprojects.onrender.com/" target="_blank" rel="noreferrer">
+            <div className="bored bg-[#282c34] pt-2 pb-2 pl-5 pr-5 cursor-pointer  rounded-full">
               bored?
             </div>
           </a>
