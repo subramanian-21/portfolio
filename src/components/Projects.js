@@ -6,6 +6,7 @@ import kumazon from "../images/kumazon.png";
 import playfolio from "../images/playfolio.png";
 import kumazonfull from "../images/kumazonfull.png";
 import playfoliofull from "../images/playfoliofull.png";
+import webEditor from "../images/webEditor.png";
 import itkfull from "../images/itkfull.png";
 import flickart from "../images/flickart.png";
 import React, { useRef, useState } from "react";
@@ -62,7 +63,7 @@ const Projects = (props) => {
               className="w-full sm:w-4/5 h-[300px] flex items-center hover:bg-slate-600"
             >
               <div
-                className="right w-[300px] h-[400px] image-design z-10 "
+                className="right w-[300px] h-[400px] image-design z-5 "
                 style={{ backgroundImage: `url(${flickart})` }}
                 alt=""
               ></div>
@@ -77,34 +78,36 @@ const Projects = (props) => {
                     efficient search queries, lazy loading for optimized
                     performance.
                   </div>
-                  <div className="text-gray-400">Tech Stack :React, Redux...</div>
+                  <div className="text-gray-400">
+                    Tech Stack :React, Redux...
+                  </div>
                 </div>
               </div>
             </a>
 
             <a
-              href="https://github.com/thugperfect/Playfolio"
+              href="https://github.com/thugperfect/WebEditor"
               target="_blank"
               rel="noreferrer"
-              className="w-full sm:w-4/5  h-[400px] text-white flex items-center hover:bg-slate-600"
+              className="w-full sm:w-4/5  h-[400px] text-white flex items-center hover:bg-slate-600 z-0"
             >
               <div className="w-full flex justify-center">
                 <div className="w-[130px] sm:w-[300px] lg:w-[400px]">
-                  <div className="text-2xl">Playfolio</div>
+                  <div className="text-2xl">WebEditor</div>
                   <div className="text-[12px] sm:text-[15px]">
-                    PlayFolio is a web application built with Angular that
-                    allows users to explore a wide range of games using the RAWG
-                    API. Users can search for games, view game details, and
-                    discover new titles.
+                    This web-based code editor is built using React and Tailwind
+                    CSS, providing a responsive and visually appealing user
+                    interface. The editor facilitates the addition and deletion
+                    of HTML, CSS, and JavaScript files. 
                   </div>
                   <div className="text-gray-400">
-                    Tech Stack :Angular, RAWG API...
+                    Tech Stack :React, Monaco Editor, Tailwindcss...
                   </div>
                 </div>
               </div>
               <div
                 className="right w-[300px] h-[400px] image-design "
-                style={{ backgroundImage: `url(${kumazonfull})` }}
+                style={{ backgroundImage: `url(${webEditor})` }}
                 alt=""
               ></div>
             </a>
@@ -256,7 +259,7 @@ const Projects = (props) => {
         target="_blank"
         href="https://github.com/thugperfect?tab=repositories"
       >
-        <button className="viewmore">View More Projects...</button>
+        <button className="viewmore text-sm md:text-lg">View More Projects...</button>
       </a>
     </div>
     //https://github.com/thugperfect?tab=repositories

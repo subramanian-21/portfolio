@@ -7,12 +7,12 @@ import React from 'react'
 
 const  About = (props)=>{
     return(<div  className="abody">
-        <div className="mabout"> <h1 className="main-headings">ABOUT</h1>
-        <div className="sabout text-gray-400">
+        <div className="mabout"> <h1 className="main-headings mt-5 text-xl md:text-4xl">ABOUT</h1>
+        <div className="sabout text-gray-400 text-sm md:text-lg">
             Iam a MERN stack developer . I am interested in Full Stack positions, here you have seen some of my projects, if you like what you see do not hesitate to contact me.
 
         </div>
-        <a href='mailto: meenamani9444@gmail.com' id="contact-me">Start Collaboration</a>
+        <a href='mailto: meenamani9444@gmail.com' id="contact-me" className='text-md md:text-lg'>Contact me</a>
         </div>
        
         <div className="tech-stack">
@@ -34,8 +34,8 @@ const  About = (props)=>{
 
                         <li>Git & Github</li>
                         <li>Render</li>
+                        <li>Figma</li>
                         <li>Netlify</li>
-                        <li>Heruko</li>
                         <li>Linux Terminal</li>
                         <li>Postman</li>
                     </ul>
