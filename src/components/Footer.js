@@ -16,7 +16,7 @@ const Footer = (props) => {
           </svg>
         </a>
 
-        <a href="https://github.com/thugperfect/" className="github">
+        <a href="https://github.com/subramanian-21/" className="github">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="16"
